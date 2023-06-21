@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --config ./jest-supertest.js",
-    "test-email-reporter": "jest --config ./jest-supertest-email-reporter.js",
     "test-stare-html-report": "jest --config ./jest-supertest-stare-htmlReport.js",
     "test-html-reporter": "jest --verbose=false --config ./jest-supertest-html-reporter.js",
     "prettier:fix": "prettier --write .",
