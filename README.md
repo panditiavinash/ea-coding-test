@@ -12,13 +12,13 @@ Commands to run the tests:
         - yarn install
     - Inside "package.json" file we can find "scripts" sections and we can use any of the tags here to run the tests. Any of the following commands can be used to run the tests:
         npm commands: 
-            - npm run <<test>>
-            - npm run <<test-stare-html-report>>
-            - npm run <<test-html-reporter>>
+            - npm run test
+            - npm run test-stare-html-report
+            - npm run test-html-reporter
         yarn commands:
-            - yarn run <<test>>
-            - yarn run <<test-stare-html-report>>
-            - yarn run <<test-html-reporter>>            
+            - yarn run test
+            - yarn run test-stare-html-report
+            - yarn run test-html-reporter            
 
     - test: This tag will generate a "junit" report in the root folder
     - test-stare-html-report: This tag will generate a html report in the root folder, this will use   "jest-stare" node.js library to generate report
