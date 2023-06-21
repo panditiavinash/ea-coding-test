@@ -24,7 +24,7 @@ Commands to run the tests:
     - test-stare-html-report: This tag will generate a html report in the root folder, this will use   "jest-stare" node.js library to generate report
     - test-html-reporter: This tag as well generated a html report in the root folder, this will use "jest-html-reporter" library to generate report
 
-Tests are written inside "test/specs" folder
+Tests are written inside "test/specs" folder and the remaining folders inside tests are supporting files for the specs.
 
 Once the tests are run, "apiLogs.txt" will be generated inside the root folder and this file will have the request and response logs of all the tests.
 
