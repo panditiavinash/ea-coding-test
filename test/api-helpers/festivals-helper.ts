@@ -31,10 +31,6 @@ export class FestivalsHelper {
     return this.requestUtils.post(requestParams);
   }
 
-  public checkResponse(response: request.Response) {
-    return response.statusCode != 429 && response.body != '""' && response.body != '" "';
-  }
-
   public validateFestivalsResponse(response: request.Response) {
 
     if (response.body.length > 0) {
