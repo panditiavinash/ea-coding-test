@@ -1,13 +1,13 @@
 # ea-coding-test
 
-Pre-requisites for setting up this repo are
+# Pre-requisites for setting up this repo:
     - Node.js
     - npm or yarn
 
-Commands to run the tests:
+# Commands to run the tests:
 
     - Clone this repository from Git Hub
-    - Run the any of the following commands: This command will install all the dependencies that are mentioned in package.json
+    - Run any of the following commands: This command will install all the dependencies that are mentioned in package.json
         - npm install 
         - yarn install
     - Inside "package.json" file we can find "scripts" sections and we can use any of the tags here to run the tests. Any of the following commands can be used to run the tests:
@@ -20,9 +20,9 @@ Commands to run the tests:
             - yarn run test-stare-html-report
             - yarn run test-html-reporter            
 
-    - test: This tag will generate a "junit" report in the root folder
-    - test-stare-html-report: This tag will generate a html report in the root folder, this will use   "jest-stare" node.js library to generate report
-    - test-html-reporter: This tag as well generated a html report in the root folder, this will use "jest-html-reporter" library to generate report
+                - test: This tag will generate a "junit" report in the root folder
+                - test-stare-html-report: This tag will generate a html report in the results\jest-stare folder, this will use "jest-stare" node.js library to generate report
+                - test-html-reporter: This tag as well generated a html report in the test-report folder, this will use "jest-html-reporter" library to generate report
 
 Tests are written inside "test/specs" folder and the remaining folders inside tests are supporting files for the specs.
 
